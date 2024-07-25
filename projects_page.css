@@ -1,0 +1,172 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+}
+
+.header-container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo img {
+    height: 50px; /* Adjust the height as needed */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+}
+
+/* Intro section styles */
+.intro {
+    padding: 50px 0;
+}
+
+.intro-container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.intro-text {
+    flex: 2;
+    margin-right: 20px;
+}
+
+.intro-text h1 {
+    font-size: 2em;
+}
+
+.intro-text p {
+    margin: 20px 0;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.education, .skills {
+    width: 48%;
+}
+
+.intro-text ul {
+    list-style: none;
+    padding: 0;
+}
+
+.intro-text ul li {
+    margin: 5px 0;
+}
+
+.intro-image {
+    flex: 1;
+}
+
+.intro-image img {
+    width: 100%;
+    border-radius: 50%;
+    margin-left: 50px;
+}
+
+/* Contact info styles */
+.contact-info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.contact-info p {
+    margin: 30px 30px;
+}
+
+/* Projects section styles */
+.projects {
+    background-color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.projects h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.project {
+    margin: 20px 0;
+}
+
+.project h3 {
+    display: flex;
+    justify-content: center;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.project p {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.project-images {
+    display: flex;
+    justify-content: center;
+}
+
+.project-images img {
+    width: 300px;
+    margin: 0 10px;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.footer-container p {
+    margin: 0 10%;
+}
+
+.footer-container a {
+    color: white;
+}
